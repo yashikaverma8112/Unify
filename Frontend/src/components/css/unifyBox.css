@@ -1,0 +1,28 @@
+.unifyBox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 700px;
+}
+.unifyBox:hover{
+    border: 1px solid rgb(175,175,175);
+}
+.unifyBox_info{
+    display: flex;
+    align-items: center;
+}
+.unifyBox_content >h5{
+ color:  rgb(129,129,129);
+ font-weight: 300;
+ margin-left: 10px;
+ font-size: large;
+ font-weight: bold;
+}
+.unifyBox_content{
+    display: flex;
+    margin-top: 8px;
+}
